@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+    <AssemblyName>LucidCatsModManager.Patcher</AssemblyName>
+    <RootNamespace>LucidCatsModManager.Patcher</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Version>1.0.0</Version>
+
+    <GameDir>D:\SteamLibrary\steamapps\common\Lucid Cats</GameDir>
+
+    <BepInExDir>$(GameDir)\BepInEx</BepInExDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="$(BepInExDir)\core\BepInEx.dll" Private="false" />
+    <Reference Include="$(BepInExDir)\core\Mono.Cecil.dll" Private="false" />
+  </ItemGroup>
+
+  <Target Name="CopyToPatchers" AfterTargets="Build">
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(BepInExDir)\patchers\LucidCatsModManager" />
+    <Message Importance="high" Text="Patcher copied to $(BepInExDir)\patchers\LucidCatsModManager" />
+  </Target>
+
+</Project>
