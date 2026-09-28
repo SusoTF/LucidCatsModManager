@@ -109,7 +109,7 @@ Disabled mods are simply renamed from `.dll` to `.dll.disabled`, so nothing is e
 2. Delete `BepInEx\plugins\LucidCatsModManager` and `BepInEx\patchers\LucidCatsModManager`.
 3. Optionally, delete the `lucidcats.modmanager.*` files from `BepInEx\config`.
 
-## FAQ
+## Questions that came to my mind
 
 **Does it change the gameplay?**
 No. It only manages your mods; the game plays exactly the same.
