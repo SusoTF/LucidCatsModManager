@@ -140,6 +140,10 @@ The solution has two projects: `Plugin` (the Mod Manager) and `Patcher`.
 ### 1.0.0
 - First release.
 
+### 1.0.1
+- Smaller Mods button, so it no longer covers the game's Settings panel.
+- Long mod names now shrink slightly or end in "…" instead of overlapping their status.
+
 ## More mods
 
 - [Bestiary](https://github.com/SusoTF/LucidCatsBestiary): an in-game encyclopedia of every monster you've encountered.
