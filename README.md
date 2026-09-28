@@ -2,8 +2,7 @@
 
 An in-game mod manager for **Lucid Cats**. See every mod you have installed, turn them on and off, change their settings with the game's own controls, save sets of mods as profiles and let the game recover on its own if a mod stops it from starting.
 
-<!-- Arrastra aquí tu captura o GIF del gestor (en el editor de GitHub se sube sola) -->
-![Mod Manager](PON_AQUI_TU_CAPTURA)
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/d83185c9-723a-4f9e-a21e-bb01a9e45b08" />
 
 ## Features
 
